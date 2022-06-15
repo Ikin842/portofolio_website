@@ -50,10 +50,10 @@ $(".grid").isotope({
   transitionDuration: "0.6s",
 });
 
-window.addEventListener("scroll", () => {
-  skillsEffect();
-  countUp();
-});
+// window.addEventListener("scroll", () => {
+//   skillsEffect();
+//   countUp();
+// });
 
 function checkScroll(el) {
   let rect = el.getBoundingClientRect();

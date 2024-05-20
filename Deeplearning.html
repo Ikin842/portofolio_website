@@ -12,9 +12,9 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./css/styleML.css" />
-    <link rel="shortcut icon" href="img/ubah_ukuran.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
 
+    <link rel="shortcut icon" href="img/ubah_ukuran.png" type="image/x-icon">
   </head>
   <body>
     <main>
@@ -42,31 +42,28 @@
         <nav>
           <div
             class="container nav-top"
-            style="position: fixed; top: 0; width: 100%;   background: radial-gradient(circle at top left, #7FFFD4, #22c1c3); "
+            style="position: fixed; top: 0; width: 100%; background: white"
           >
             <div class="logo">
-              <img src="./img/kindee-removebg-preview (1).png" alt="" />
+              <img src="./img/kindee.png" alt="" />
             </div>
 
             <div class="links">
               <ul>
                 <li>
-                  <a href="index.html">Home</a>
-                </li>
-                <!-- <li> 
-                  <a href="#services">Services</a>
-                </li> -->
-                <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#header">Home</a>
                 </li>
                 <li>
-                  <a href="index.html#about">About</a>
+                  <a href="#portfolio">portofolio</a>
                 </li>
                 <li>
-                  <a href="index.html#contact">Contact</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="https://wa.me/6289654857415" class="active" target="_blank">whatsapp Me</a>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="https://wa.me/6289654857415" class="active" target="_blank">whatsapp me</a>
                 </li>
               </ul>
             </div>
@@ -80,17 +77,18 @@
         <div class="header-content" style="padding-top: 90px">
           <div class="container grid-2">
             <div class="column-1">
-              <h1 class="header-title">Deep Learning</h1>
+              <h1 class="header-title">AI Portfolio</h1>
               <p class="text">
-
-                Deep learning is an artificial intelligence that can imitate the working process of the human brain.
+                This is a portfolio related to Artificial Intelligence, this portfolio consists of machine learning, computer vision and Natural Language Processing (NLP)
               </p>
               <a href="https://drive.google.com/file/d/1xsLWt5XTjYtmrJagAvgOTzQqv-1mC7ut/view?usp=sharing" class="btn" target="_blank">Download CV</a>
             </div>
 
             <div class="column-2 image">
               <img src="./img/shapes/points2.png" class="points points2" alt="">
-              <img src="./img/3.png" class="img-gambar z-index" alt="">
+              <!-- <img src="./img/ikin.jpg" class="img-gambar z-index" alt=""> -->
+              <img src="./img/ikin_bogor.png" class="img-gambar z-index" alt="">
+
             </div>
           </div>
         </div>
@@ -100,7 +98,7 @@
       <section class="blog section" id="portfolio">
         <div class="container">
           <div class="section-header">
-            <h3 class="title" data-title="">Portofolio Deep Learning</h3>
+            <h3 class="title" data-title="">AI Portfolio</h3>
             <p class="text">
               on this page is the main portfolio, I present each portfolio by pointing to youtube and including the source code in the description and on github
             </p>
@@ -120,15 +118,120 @@
                 </div>
 
                 <div class="blog-content">
-                  <h3 class="title-sm">Multilabel Panorama Classification</h3>
+                  <h3 class="title-sm">Object Detection APD</h3>
                   <br>
                   <p class="blog-text">
                     in this project I use transfer learning techniques, where this technique utilizes a model that has been trained on very large data.
                   </p>
-                  <a href="https://github.com/Ikin842/Multilabel_panorama-with-TL" class="btn small" target='_blank'>Read more</a>
+                  <a href="#" class="btn small">Read more</a>
                 </div>
               </div>
             </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/ui3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <h3 class="title-sm">Object Detection Helm</h3>
+                  <p class="blog-text">
+                  <br>
+                  In this project, I used a well-known algorithm in deep learning, namely CNN to classify images of plant pests
+                </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="blog section">
+        <div class="container">
+          <div class="section-header">
+            <!-- <h3 class="title" data-title=""></h3> -->
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/ui10-removebg-preview.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <h3 class="title-sm">detection of Alzheimer's disease in MRI images</h3>
+                  <br>
+                  <p class="blog-text">
+                    In this project, I classify a well-known institution, namely MNIST by using a neural network
+                  </p>
+                  <a href="https://github.com/Ikin842/Classification_Fashion_MNIST" class="btn small" target='_blank'>Read more</a>
+                </div>
+              </div>
+            </div>
+            
+            
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/ui3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <h3 class="title-sm">Detection of brain tumors on MRI images</h3>
+                  <p class="blog-text">
+                  <br>
+                  In this project, I used a well-known algorithm in deep learning, namely CNN to classify images of plant pests
+                </p>
+                  <a href="https://github.com/Ikin842/classsification-pests-with-CNN" class="btn small" target="_blank">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="blog section">
+        <div class="container">
+          <div class="section-header">
+            <!-- <h3 class="title" data-title=""></h3> -->
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/ui10-removebg-preview.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <h3 class="title-sm">Classification Fashion MNIST</h3>
+                  <br>
+                  <p class="blog-text">
+                    In this project, I classify a well-known institution, namely MNIST by using a neural network
+                  </p>
+                  <a href="https://github.com/Ikin842/Classification_Fashion_MNIST" class="btn small" target='_blank'>Read more</a>
+                </div>
+              </div>
+            </div>
+            
             
 
             <div class="blog-wrap">
@@ -150,6 +253,7 @@
           </div>
         </div>
       </section>
+
 
 
       <section class="blog section">
